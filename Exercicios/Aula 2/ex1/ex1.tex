@@ -1,0 +1,49 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=1cm, bottom = 2cm, left = 2cm, right = 2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{listings}
+\usepackage[framed, numbered]{matlab-prettifier}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{systeme}
+
+\title{Exercício 1 - Aula 2 \\ EET-01}
+
+\author{
+  Igor Caldeira Magalhães\\igorcmag@gmail.com
+}
+\date{03 de maio de 2020}
+
+\begin{document}
+\maketitle
+\section{Enunciado}
+
+Obtenha y[n], usando o matlab (ou octave), para o exemplo de convolução apresentado em sala de aula.
+
+%O exercício deve ser entregue: Documento simples deve ser apresentado, contendo o seguinte conteúdo:
+%Nome da disciplina;
+%Nome do aluno;
+%Enunciado do exercício;
+%Figuras obtidas - Com breve descrição: A Figura xx mostra ...
+%Código .m e breve descrição do código matlab (octave);
+
+\section{Solução}
+
+$h[n]=u[n] - u[n - N]$, $x[n]=a^nu[n]$ e $y[n]=h[n]\ast x[n]$. Os valores utilizados foram $a=1.01$ e $N=10$.
+
+\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB para gerar as sequências h, x e y, bem como seus gráficos.}, basicstyle = \mlttfamily\scriptsize]{ex1.m}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{img1.jpg} 
+	\caption{Gráficos $h[n]$, $x[n]$ e $y[n] = h[n]\ast x[n]$.}
+	\label{fig:1a}
+\end{figure}
+
+\end{document}

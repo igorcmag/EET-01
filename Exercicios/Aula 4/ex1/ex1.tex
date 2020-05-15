@@ -1,0 +1,69 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=1cm, bottom = 2cm, left = 2cm, right = 2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{listings}
+\usepackage[framed, numbered]{matlab-prettifier}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{systeme}
+
+\title{Exercício 1 - Aula 4 \\ EET-01}
+
+\author{
+  Igor Caldeira Magalhães\\igorcmag@gmail.com
+}
+\date{08 de maio de 2020}
+
+\begin{document}
+\maketitle
+\section{Enunciado}
+
+\subsection{a)}
+Derivar (demonstrar) a desigualdade de Cauchy-Schwarz.
+
+\subsection{b)} 
+Derivar (demonstrar) a relação de Euler.
+
+%O exercício deve ser entregue: Documento simples deve ser apresentado, contendo o seguinte conteúdo:
+%Nome da disciplina;
+%Nome do aluno;
+%Enunciado do exercício;
+%Figuras obtidas - Com breve descrição: A Figura xx mostra ...
+%Código .m e breve descrição do código matlab (octave);
+
+\section{Solução}
+
+\subsection{a)}
+
+Para todos $a_i, b_i$ e $x$ reais vale
+
+$$(a_1x+b_1)^2 + (a_2x+b_2)^2 + ... + (a_nx+b_n)^2 \geqslant 0. $$
+
+Reagrupando, temos
+
+$$(a_1^2+a_2^2+ ... +a_n^2)x^2 + 2(a_1b_1 + a_2b_2 + ... + a_nb_n)x + (b_1^2 + b_2^2 + ... + b_n^2) \geqslant 0$$
+
+independentemente de $x$. Logo, o determinante da equação deve ser não positivo, ou seja, 
+
+$$4(a_1b_1 + a_2b_2 + ... + a_nb_n)^2-4(a_1^2+a_2^2+ ... +a_n^2)(b_1^2 + b_2^2 + ... + b_n^2)\leqslant 0$$
+$$\therefore (a_1^2+a_2^2+ ... +a_n^2)(b_1^2 + b_2^2 + ... + b_n^2) \geqslant (a_1b_1 + a_2b_2 + ... + a_nb_n).$$
+
+Se $a = (a_1,a_2,...,a_n)$ e $b = (b_1,b_2,...,b_n)$, então a desigualdade pode ser escrita como
+$$\mid a\mid\mid b\mid \geqslant \mid ab\mid$$
+
+\subsection{b)}
+
+A expansão de $e^x$ em série de Taylor em torno de a = 0 é dada por
+$$e^x = \sum_{n=0}^{\infty}\frac{x^n}{n!}$$
+com raio de de convergência infinito. A fórmula é válida para $x$ real, mas vamos verificar o que obteríamos para $ix$, com $x$ real.
+$$e^{ix} = \sum_{n=0}^{\infty}\frac{(ix)^n}{n!}=\sum_{n=0}^{\infty}\frac{(-1)^n\cdot x^{2n}}{(2n)!}+i\sum_{n=1}^{\infty}\frac{(-1)^{n-1}\cdot x^{2n-1}}{(2n-1)!}$$
+Observe que as parcelas do lado direito da equação são, respectivamente, as expansões de $cosx$ e $senx$. Motivados por isso, \textbf{definimos} a exponencial de um número complexo $z = x + y\cdot i$, com $x$ e $y$ reais, como 
+
+$$e^z=e^{x + y\cdot i}=e^x(cosy + i\cdot seny)$$ 
+\end{document}

@@ -1,0 +1,54 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=1cm, bottom = 2cm, left = 2cm, right = 2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{listings}
+\usepackage[framed, numbered]{matlab-prettifier}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{systeme}
+
+\title{Exercício 1 - Aula 1 \\ EET-01}
+
+\author{
+  Igor Caldeira Magalhães\\igorcmag@gmail.com
+}
+\date{01 de maio de 2020}
+
+\begin{document}
+\maketitle
+\section{Enunciado}
+
+Representar graficamente as sequências básicas apresentadas na Aula 01 com a função "stem" do matlab (ou GNU Octave).
+
+%O exercício deve ser entregue: Documento simples deve ser apresentado, contendo o seguinte conteúdo:
+%Nome da disciplina;
+%Nome do aluno;
+%Enunciado do exercício;
+%Figuras obtidas - Com breve descrição: A Figura xx mostra ...
+%Código .m e breve descrição do código matlab (octave);
+
+\section{Solução}
+
+\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB para gerar as funções 'pulso unitário', 'degrau unitário' e 'exponencial', bem como a plotagem dos seus respectivos gráficos.}, basicstyle = \mlttfamily\scriptsize]{ex1.m}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{img1.jpg} 
+	\caption{Gráficos de 'pulso unitario' e 'degrau unitario'.}
+	\label{fig:1a}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{img2.jpg} 
+	\caption{Gráficos das sequências exponenciais para diversos valores de $\alpha$. Para todas as sequências, $A=1$.}
+	\label{fig:1a}
+\end{figure}
+
+\end{document}
