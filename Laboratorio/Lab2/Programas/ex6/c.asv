@@ -1,0 +1,6 @@
+set(0, 'defaulttextinterpreter', 'Latex');
+
+syms t;
+fs = 1;
+x = 2*sin(pi*(fs*t))/(pi*fs*t) + sin(pi*(fs*t))/(pi*fs*t);
+fplot(x);

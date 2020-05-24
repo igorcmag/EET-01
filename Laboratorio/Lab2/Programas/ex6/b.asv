@@ -1,0 +1,4 @@
+set(0, 'defaulttextinterpreter', 'Latex');
+
+syms t;
+x(T)
