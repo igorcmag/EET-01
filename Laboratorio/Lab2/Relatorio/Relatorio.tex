@@ -27,23 +27,69 @@
 \section{Aliasing de um Senoidal}
 
 \subsection{a)}
-oi
-%\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB para gerar as quatro sequências do item (a) do exercício 1, bem como a plotagem dos seus respectivos gráficos.}, basicstyle = \mlttfamily\scriptsize]{../Programas/ex1/a.m}
+O gráfico solicitado se encontra na figura 1.
+
+%\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB que cria a função senoidal e gera o gráfico.}, basicstyle = \mlttfamily\scriptsize]{../Programas/ex1/a.m}
 
 %\begin{figure}[H]
 %	\centering
 %	\includegraphics[scale=0.7]{../Imagens/ex1/a.jpg} 
-%	\caption{Gráficos das sequências em seus respectivos domínios}
+%	\caption{Onda senoidal amostrada}
 %	\label{fig:1a}
 %\end{figure}
 
 \subsection{b)}
 
+O gráfico com plot se encontra na figura 
+
+%\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB que cria a função senoidal e gera o gráfico.}, basicstyle = \mlttfamily\scriptsize]{../Programas/ex1/b.m}
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=0.7]{../Imagens/ex1/b.jpg} 
+%	\caption{Onda senoidal amostrada, agora interpolada linearmente.}
+%	\label{fig:1a}
+%\end{figure}
+
 \subsection{c)}
+
+A sequência de gráficos se encontra na figura. Fica claro que a frequência aparente da senóide aumenta.
+
+%\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB que cria a função senoidal e gera a sequência de gráficos para diferentes frequências.}, basicstyle = \mlttfamily\scriptsize]{../Programas/ex1/c.m}
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=0.7]{../Imagens/ex1/c.jpg} 
+%	\caption{Série de gráficos com variação na frequência.}
+%	\label{fig:1a}
+%\end{figure}
 
 \subsection{d)}
 
+A sequência de gráficos se encontra na figura. Fica claro que a frequência aparente da senóide diminui. Isto se deve ao fato de estarmos trabalhando com uma função $2\pi$-periódica, ou seja, devemos olhar para o resto da divisão da frequência pelo maior múltiplo de $2\pi$ ainda menor que a frequência.
+
+%\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB que cria a função senoidal e gera a sequência de gráficos para diferentes frequências.}, basicstyle = \mlttfamily\scriptsize]{../Programas/ex1/d.m}
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=0.7]{../Imagens/ex1/d.jpg} 
+%	\caption{Série de gráficos com variação na frequência.}
+%	\label{fig:1a}
+%\end{figure}
+
 \subsection{e)}
+
+A sequência de gráficos se encontra na figura. Pelo que foi explicado no item anterior, a frequência aparente deve aumentar no intervalo proposto, exatamente o que fora observado. 
+
+%\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB que cria a função senoidal e gera a sequência de gráficos para diferentes frequências.}, basicstyle = \mlttfamily\scriptsize]{../Programas/ex1/e.m}
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=0.7]{../Imagens/ex1/e.jpg} 
+%	\caption{Série de gráficos com variação na frequência.}
+%	\label{fig:1a}
+%\end{figure}
+
 
 \section{Aliasing de um Chirp}
 
@@ -90,7 +136,40 @@ Isso é confirmado pelo gráfico, pois a função é par, isto é, $f(-n)=f(n)$,
 
 \subsection{a)}
 
+O esboço dos 3 sinais em um subplot do MATLAB segue na figura.
+
+Analisando os sons reproduzidos, é notável que quanto maior a frequência, mais agudo é seu som, além disso, o som parece ser o mesmo durante os 5 segundos.
+
+%\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB que cria o sinal sinusoidal e gera a sequência de gráficos para diferentes frequências, além de reproduzir os sons de cada um dos sinais.}, basicstyle = \mlttfamily\scriptsize]{../Programas/ex3/a.m}
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=0.7]{../Imagens/ex3/a.jpg} 
+%	\caption{Série de gráficos com variação na frequência.}
+%	\label{fig:1a}
+%\end{figure}
+
+
 \subsection{b)}
+
+O esboço dos 3 sinais em um subplot do MATLAB segue na figura.
+
+Analisando os sons reproduzidos, temos:
+
+\textbf{20kHz:} A frequência parece aumentar gradativamente. 
+
+\textbf{8.5kHz:} A frequência, que parece menor do que o áudio anterior, aumenta gradativamente e no final dos 5 segundos diminui.
+
+\textbf{3.4kHz:} A frequência começa diminuindo, o som pára momentaneamente e a frequência volta a aumentar.
+
+%\lstinputlisting[style=Matlab-editor, caption={Código em MATLAB que cria o sinal “chirp” e gera a sequência de gráficos para diferentes frequências, além de reproduzir os sons de cada um dos sinais.}, basicstyle = \mlttfamily\scriptsize]{../Programas/ex3/b.m}
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=0.7]{../Imagens/ex3/b.jpg} 
+%	\caption{Série de gráficos com variação na frequência.}
+%	\label{fig:1a}
+%\end{figure}
 
 \section{Montagem de uma Onda Sinoidal}
 

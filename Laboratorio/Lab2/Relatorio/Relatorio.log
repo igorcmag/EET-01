@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.3.25)  23 MAY 2020 21:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.3.25)  24 MAY 2020 23:26
 entering extended mode
 **./Relatorio.tex
 (Relatorio.tex
@@ -417,16 +417,19 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 
  ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 65
-.
- ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bera\t1fvm.fd"
+) [1
+
+{C:/Users/Igor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 11
+1.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bera\t1fvm.fd"
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 65.
+(Font)              scaled to size 10.20007pt on input line 111.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 6.80005pt on input line 65.
+(Font)              scaled to size 6.80005pt on input line 111.
 
 (../Programas/ex2/b.m
 LaTeX Font Info:    Trying to load font information for TS1+fvm on input line 1
@@ -437,54 +440,51 @@ File: ts1fvm.fd 2004/09/07 scalable font definitions for TS1/fvm.
 )
 LaTeX Font Info:    Font shape `TS1/fvm/m/n' will be
 (Font)              scaled to size 6.80005pt on input line 1.
-
-[1
-
-{C:/Users/Igor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-<../Imagens/ex2/b.jpg, id=17, 846.16125pt x 300.12125pt>
+)
+<../Imagens/ex2/b.jpg, id=15, 846.16125pt x 300.12125pt>
 File: ../Imagens/ex2/b.jpg Graphic file (type jpg)
 <use ../Imagens/ex2/b.jpg>
-Package pdftex.def Info: ../Imagens/ex2/b.jpg  used on input line 69.
+Package pdftex.def Info: ../Imagens/ex2/b.jpg  used on input line 115.
 (pdftex.def)             Requested size: 507.70067pt x 180.07413pt.
 
-Overfull \hbox (24.0038pt too wide) in paragraph at lines 69--70
+Overfull \hbox (24.0038pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
-(../Programas/ex2/b.m)
-<../Imagens/ex2/c.jpg, id=18, 562.1pt x 421.575pt>
+(../Programas/ex2/c.m)
+<../Imagens/ex2/c.jpg, id=16, 562.1pt x 421.575pt>
 File: ../Imagens/ex2/c.jpg Graphic file (type jpg)
 <use ../Imagens/ex2/c.jpg>
-Package pdftex.def Info: ../Imagens/ex2/c.jpg  used on input line 84.
+Package pdftex.def Info: ../Imagens/ex2/c.jpg  used on input line 130.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
  [2 <../Imagens/ex2/b.jpg>] [3 <../Imagens/ex2/c.jpg>]
-(../Programas/ex6/interpolador_seno.m) (../Programas/ex6/b.m [4])
-<../Imagens/ex6/b.jpg, id=34, 562.1pt x 421.575pt>
+(../Programas/ex6/interpolador_seno.m [4]) (../Programas/ex6/b.m)
+<../Imagens/ex6/b.jpg, id=33, 562.1pt x 421.575pt>
 File: ../Imagens/ex6/b.jpg Graphic file (type jpg)
 <use ../Imagens/ex6/b.jpg>
-Package pdftex.def Info: ../Imagens/ex6/b.jpg  used on input line 158.
+Package pdftex.def Info: ../Imagens/ex6/b.jpg  used on input line 237.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
 
-(../Programas/ex6/c.m)
-<../Imagens/ex6/c.jpg, id=35, 562.1pt x 421.575pt>
+(../Programas/ex6/c.m [5 <../Imagens/ex6/b.jpg>])
+<../Imagens/ex6/c.jpg, id=38, 562.1pt x 421.575pt>
 File: ../Imagens/ex6/c.jpg Graphic file (type jpg)
 <use ../Imagens/ex6/c.jpg>
-Package pdftex.def Info: ../Imagens/ex6/c.jpg  used on input line 171.
+Package pdftex.def Info: ../Imagens/ex6/c.jpg  used on input line 250.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
- [5 <../Imagens/ex6/b.jpg>] [6 <../Imagens/ex6/c.jpg>]
+ [6 <../Imagens/ex6/c.jpg>]
 (Relatorio.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7027 strings out of 480932
- 98359 string characters out of 2900373
- 440870 words of memory out of 3000000
- 22746 multiletter control sequences out of 15000+200000
+ 7029 strings out of 480932
+ 98386 string characters out of 2900373
+ 433870 words of memory out of 3000000
+ 22748 multiletter control sequences out of 15000+200000
  548309 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,56p,375b,1938s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,56p,375b,1868s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
 cti1200.pk>{C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
 e/8r.enc} <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/d
@@ -507,9 +507,9 @@ rs/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pf
 b><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 symbols/msam10.pfb>
-Output written on Relatorio.pdf (6 pages, 297528 bytes).
+Output written on Relatorio.pdf (6 pages, 302592 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
+ 303 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
