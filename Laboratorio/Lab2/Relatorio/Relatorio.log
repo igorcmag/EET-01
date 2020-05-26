@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.3.25)  24 MAY 2020 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.3.25)  25 MAY 2020 22:20
 entering extended mode
 **./Relatorio.tex
 (Relatorio.tex
@@ -329,17 +329,7 @@ Package: systeme 2019/01/13 v0.32 Mise en forme de systemes d'equations (CT)
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count273
 \l__pdf_internal_box=\box51
-) (Relatorio.aux
-
-LaTeX Warning: Label `fig:1a' multiply defined.
-
-
-LaTeX Warning: Label `fig:1a' multiply defined.
-
-
-LaTeX Warning: Label `fig:1a' multiply defined.
-
-)
+) (Relatorio.aux)
 \openout1 = `Relatorio.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -417,21 +407,18 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 
  ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{C:/Users/Igor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 11
-1.
-
-("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bera\t1fvm.fd"
+)
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 32
+.
+ ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bera\t1fvm.fd"
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 111.
+(Font)              scaled to size 10.20007pt on input line 32.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 6.80005pt on input line 111.
+(Font)              scaled to size 6.80005pt on input line 32.
 
-(../Programas/ex2/b.m
+(../Programas/ex1/a.m
 LaTeX Font Info:    Trying to load font information for TS1+fvm on input line 1
 .
 
@@ -441,7 +428,44 @@ File: ts1fvm.fd 2004/09/07 scalable font definitions for TS1/fvm.
 LaTeX Font Info:    Font shape `TS1/fvm/m/n' will be
 (Font)              scaled to size 6.80005pt on input line 1.
 )
-<../Imagens/ex2/b.jpg, id=15, 846.16125pt x 300.12125pt>
+<../Imagens/ex1/a.jpg, id=1, 702.625pt x 526.96875pt>
+File: ../Imagens/ex1/a.jpg Graphic file (type jpg)
+<use ../Imagens/ex1/a.jpg>
+Package pdftex.def Info: ../Imagens/ex1/a.jpg  used on input line 36.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+
+[1
+
+{C:/Users/Igor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(../Programas/ex1/b.m)
+<../Imagens/ex1/b.jpg, id=15, 702.625pt x 526.96875pt>
+File: ../Imagens/ex1/b.jpg Graphic file (type jpg)
+<use ../Imagens/ex1/b.jpg>
+Package pdftex.def Info: ../Imagens/ex1/b.jpg  used on input line 49.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+ [2 <../Imagens/ex1/a.jpg>] (../Programas/ex1/c.m
+[3 <../Imagens/ex1/b.jpg>])
+<../Imagens/ex1/c.jpg, id=22, 702.625pt x 526.96875pt>
+File: ../Imagens/ex1/c.jpg Graphic file (type jpg)
+<use ../Imagens/ex1/c.jpg>
+Package pdftex.def Info: ../Imagens/ex1/c.jpg  used on input line 62.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+ (../Programas/ex1/d.m [4 <../Imagens/ex1/c.jpg>])
+<../Imagens/ex1/d.jpg, id=28, 702.625pt x 526.96875pt>
+File: ../Imagens/ex1/d.jpg Graphic file (type jpg)
+<use ../Imagens/ex1/d.jpg>
+Package pdftex.def Info: ../Imagens/ex1/d.jpg  used on input line 75.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+
+(../Programas/ex1/e.m [5 <../Imagens/ex1/d.jpg>])
+<../Imagens/ex1/e.jpg, id=32, 702.625pt x 526.96875pt>
+File: ../Imagens/ex1/e.jpg Graphic file (type jpg)
+<use ../Imagens/ex1/e.jpg>
+Package pdftex.def Info: ../Imagens/ex1/e.jpg  used on input line 88.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+ [6 <../Imagens/ex1/e.jpg>]
+(../Programas/ex2/b.m)
+<../Imagens/ex2/b.jpg, id=40, 846.16125pt x 300.12125pt>
 File: ../Imagens/ex2/b.jpg Graphic file (type jpg)
 <use ../Imagens/ex2/b.jpg>
 Package pdftex.def Info: ../Imagens/ex2/b.jpg  used on input line 115.
@@ -452,64 +476,92 @@ Overfull \hbox (24.0038pt too wide) in paragraph at lines 115--116
  []
 
 (../Programas/ex2/c.m)
-<../Imagens/ex2/c.jpg, id=16, 562.1pt x 421.575pt>
+<../Imagens/ex2/c.jpg, id=41, 562.1pt x 421.575pt>
 File: ../Imagens/ex2/c.jpg Graphic file (type jpg)
 <use ../Imagens/ex2/c.jpg>
 Package pdftex.def Info: ../Imagens/ex2/c.jpg  used on input line 130.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
- [2 <../Imagens/ex2/b.jpg>] [3 <../Imagens/ex2/c.jpg>]
-(../Programas/ex6/interpolador_seno.m [4]) (../Programas/ex6/b.m)
-<../Imagens/ex6/b.jpg, id=33, 562.1pt x 421.575pt>
+ [7 <../Imagens/ex2/b.jpg>] (../Programas/ex3/a.m
+[8 <../Imagens/ex2/c.jpg>])
+<../Imagens/ex3/a.jpg, id=50, 702.625pt x 526.96875pt>
+File: ../Imagens/ex3/a.jpg Graphic file (type jpg)
+<use ../Imagens/ex3/a.jpg>
+Package pdftex.def Info: ../Imagens/ex3/a.jpg  used on input line 147.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+ (../Programas/ex3/b.m [9 <../Imagens/ex3/a.jpg>])
+<../Imagens/ex3/b.jpg, id=54, 702.625pt x 526.96875pt>
+File: ../Imagens/ex3/b.jpg Graphic file (type jpg)
+<use ../Imagens/ex3/b.jpg>
+Package pdftex.def Info: ../Imagens/ex3/b.jpg  used on input line 169.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+
+[10 <../Imagens/ex3/b.jpg>] (../Programas/ex5/a.m)
+<../Imagens/ex5/a.jpg, id=58, 702.625pt x 526.96875pt>
+File: ../Imagens/ex5/a.jpg Graphic file (type jpg)
+<use ../Imagens/ex5/a.jpg>
+Package pdftex.def Info: ../Imagens/ex5/a.jpg  used on input line 221.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+ [11] (../Programas/ex5/b.m)
+<../Imagens/ex5/b.jpg, id=62, 702.625pt x 526.96875pt>
+File: ../Imagens/ex5/b.jpg Graphic file (type jpg)
+<use ../Imagens/ex5/b.jpg>
+Package pdftex.def Info: ../Imagens/ex5/b.jpg  used on input line 234.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+
+[12 <../Imagens/ex5/a.jpg>] (../Programas/ex5/c.m)
+<../Imagens/ex5/c.jpg, id=66, 702.625pt x 526.96875pt>
+File: ../Imagens/ex5/c.jpg Graphic file (type jpg)
+<use ../Imagens/ex5/c.jpg>
+Package pdftex.def Info: ../Imagens/ex5/c.jpg  used on input line 247.
+(pdftex.def)             Requested size: 351.31163pt x 263.48372pt.
+ [13 <../Imagens/ex5/b.jpg>]
+(../Programas/ex6/interpolador_seno.m) (../Programas/ex6/b.m)
+<../Imagens/ex6/b.jpg, id=71, 562.1pt x 421.575pt>
 File: ../Imagens/ex6/b.jpg Graphic file (type jpg)
 <use ../Imagens/ex6/b.jpg>
-Package pdftex.def Info: ../Imagens/ex6/b.jpg  used on input line 237.
+Package pdftex.def Info: ../Imagens/ex6/b.jpg  used on input line 270.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
-
-(../Programas/ex6/c.m [5 <../Imagens/ex6/b.jpg>])
-<../Imagens/ex6/c.jpg, id=38, 562.1pt x 421.575pt>
+ [14 <../Imagens/ex5/c.jpg>] (../Programas/ex6/c.m)
+<../Imagens/ex6/c.jpg, id=77, 562.1pt x 421.575pt>
 File: ../Imagens/ex6/c.jpg Graphic file (type jpg)
 <use ../Imagens/ex6/c.jpg>
-Package pdftex.def Info: ../Imagens/ex6/c.jpg  used on input line 250.
+Package pdftex.def Info: ../Imagens/ex6/c.jpg  used on input line 283.
 (pdftex.def)             Requested size: 337.2626pt x 252.94695pt.
- [6 <../Imagens/ex6/c.jpg>]
-(Relatorio.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ [15 <../Imagens/ex6/b.jpg>] [16 <../Imagens/ex6/c.jpg>] (Relatorio.aux) ) 
 Here is how much of TeX's memory you used:
- 7029 strings out of 480932
- 98386 string characters out of 2900373
- 433870 words of memory out of 3000000
- 22748 multiletter control sequences out of 15000+200000
+ 7174 strings out of 480932
+ 101436 string characters out of 2900373
+ 454946 words of memory out of 3000000
+ 22861 multiletter control sequences out of 15000+200000
  548309 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,56p,375b,1868s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cti1200.pk>{C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
-e/8r.enc} <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecrm0800.pk> <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecbx1200.pk> <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fo
-nts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Igor\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Igor\AppData\L
-ocal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Igor\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Use
-rs/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
-.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Igor/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Igor/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Igor/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
-rs/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pf
-b><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-symbols/msam10.pfb>
-Output written on Relatorio.pdf (6 pages, 302592 bytes).
+ 36i,7n,56p,370b,1870s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\
+Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200
+.pk>{C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
+c} <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
+crm0800.pk> <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1200.pk> <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm1200.pk> <C:\Users\Igor\AppData\Local\MiKTeX\2.9\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Igor\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Igor\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Igor\AppData
+\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/Igor
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi6.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Igor/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Igor/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Igor
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
+/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/U
+sers/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
+/msam10.pfb>
+Output written on Relatorio.pdf (16 pages, 775937 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
+ 358 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
